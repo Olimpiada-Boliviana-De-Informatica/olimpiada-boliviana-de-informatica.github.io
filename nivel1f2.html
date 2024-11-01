@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 1 Firewall 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        table {
+            width: 100%;
+            max-width: 1200px;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f1f9f1;
+        }
+
+        @media (max-width: 768px) {
+
+            table,
+            th,
+            td {
+                display: block;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                text-align: right;
+                position: relative;
+            }
+
+            th::before,
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+                color: #333;
+            }
+        }
+
+        .header {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+
+        }
+
+        .header img {
+            width: 25%;
+            /* Adjust size as needed */
+            height: auto;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html">Regresar a listas</a>
+
+    <div class="header">
+        <img src="logo_olim.png" alt="Logo OCEPBV">
+        <h1 class="title">Clasificados a Etapa Nacional - Nivel 1 Firewall 2</h1>
+        <img src="logoObi.jpg" alt="Logo OBI">
+    </div>
+
+
+    <table>
+
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Colegio</th>
+            <th>Curso</th>
+        </tr>
+        <tr>
+            <td data-label="Nombre">CRISTIAN JOSUE</td>
+            <td data-label="Apellido Paterno">CUELLAR</td>
+            <td data-label="Apellido Materno">RAPU</td>
+            <td data-label="Colegio">MARIO SAIELLI</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Nombre">YUREM JUNIOR</td>
+            <td data-label="Apellido Paterno">FORAQUITA</td>
+            <td data-label="Apellido Materno">PIMENTEL</td>
+            <td data-label="Colegio">LA FLORIDA B</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Nombre">JHON ALEX</td>
+            <td data-label="Apellido Paterno">PARINA</td>
+            <td data-label="Apellido Materno">ACHO</td>
+            <td data-label="Colegio">NACIONAL ANTOFAGASTA</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Nombre">NATALY</td>
+            <td data-label="Apellido Paterno">FERNANDEZ</td>
+            <td data-label="Apellido Materno">PALMA</td>
+            <td data-label="Colegio">COBIJA A</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Nombre">LEONIDAS</td>
+            <td data-label="Apellido Paterno">BERDEJA</td>
+            <td data-label="Apellido Materno">APAZA</td>
+            <td data-label="Colegio">MEJILLONES B</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Nombre">DERIC CALEB</td>
+            <td data-label="Apellido Paterno">ROJAS</td>
+            <td data-label="Apellido Materno">BARRIOS</td>
+            <td data-label="Colegio">JESUS NAZARENO</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+
+
+    </table>
+
+</body>
+
+</html>

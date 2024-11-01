@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificados a Etapa Nacional - Nivel 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        table {
+            width: 100%;
+            max-width: 1200px;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f1f9f1;
+        }
+
+        @media (max-width: 768px) {
+
+            table,
+            th,
+            td {
+                display: block;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                text-align: right;
+                position: relative;
+            }
+
+            th::before,
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+                color: #333;
+            }
+        }
+
+        .header {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+
+        }
+
+        .header img {
+            width: 25%;
+            /* Adjust size as needed */
+            height: auto;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html">Regresar a listas</a>
+
+    <div class="header">
+        <img src="logo_olim.png" alt="Logo OCEPBV">
+        <h1 class="title">Clasificados a Etapa Nacional - Nivel 3</h1>
+        <img src="logoObi.jpg" alt="Logo OBI">
+    </div>
+
+
+    <table>
+        <tr>
+            <th>Departamento</th>
+            <th>Dependencia</th>
+            <th>Distrito</th>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Colegio</th>
+            <th>Curso</th>
+        </tr>
+        <tr>
+            <td data-label="Departamento">Beni</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">TRINIDAD</td>
+            <td data-label="Nombre">SEBASTIAN</td>
+            <td data-label="Apellido Paterno">GUTIERREZ</td>
+            <td data-label="Apellido Materno">SAAVEDRA</td>
+            <td data-label="Colegio">LA SALLE</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+        <tr>
+            <td data-label="Departamento">Chuquisaca</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SUCRE</td>
+            <td data-label="Nombre">VALENTINA</td>
+            <td data-label="Apellido Paterno">SANDY</td>
+            <td data-label="Apellido Materno">ZAMBRANA</td>
+            <td data-label="Colegio">MONTESSORI DE SUCRE</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+        <tr>
+            <td data-label="Departamento">Beni</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">TRINIDAD</td>
+            <td data-label="Nombre">SEBASTIAN</td>
+            <td data-label="Apellido Paterno">GUTIERREZ</td>
+            <td data-label="Apellido Materno">SAAVEDRA</td>
+            <td data-label="Colegio">LA SALLE</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Chuquisaca</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SUCRE</td>
+            <td data-label="Nombre">VALENTINA</td>
+            <td data-label="Apellido Paterno">SANDY</td>
+            <td data-label="Apellido Materno">ZAMBRANA</td>
+            <td data-label="Colegio">MONTESSORI DE SUCRE</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Chuquisaca</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SUCRE</td>
+            <td data-label="Nombre">DANIEL JHACIT</td>
+            <td data-label="Apellido Paterno">FLORES</td>
+            <td data-label="Apellido Materno">SAAVEDRA</td>
+            <td data-label="Colegio">MONTESSORI DE SUCRE</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Chuquisaca</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SUCRE</td>
+            <td data-label="Nombre">JUAN DANIEL</td>
+            <td data-label="Apellido Paterno">QUISPE</td>
+            <td data-label="Apellido Materno">SIERRA</td>
+            <td data-label="Colegio">VICTORIA DIEZ</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Chuquisaca</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SUCRE</td>
+            <td data-label="Nombre">LIN FANG</td>
+            <td data-label="Apellido Paterno">OU</td>
+            <td data-label="Apellido Materno">XU</td>
+            <td data-label="Colegio">SANTA ANA</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Chuquisaca</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SUCRE</td>
+            <td data-label="Nombre">LIN MING</td>
+            <td data-label="Apellido Paterno">OU</td>
+            <td data-label="Apellido Materno">XU</td>
+            <td data-label="Colegio">SANTA ANA</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Cochabamba</td>
+            <td data-label="Dependencia">RURAL</td>
+            <td data-label="Distrito">TIQUIPAYA</td>
+            <td data-label="Nombre">MICHELLE MARYAN</td>
+            <td data-label="Apellido Paterno">DELGADILLO</td>
+            <td data-label="Apellido Materno">QUIROGA</td>
+            <td data-label="Colegio">EUGENIA RAVASCO</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Cochabamba</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">TIQUIPAYA</td>
+            <td data-label="Nombre">SERGIO MAURICIO</td>
+            <td data-label="Apellido Paterno">LOPEZ</td>
+            <td data-label="Apellido Materno">CABALLERO</td>
+            <td data-label="Colegio">TIQUIPAYA</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Cochabamba</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">COCHABAMBA 1</td>
+            <td data-label="Nombre">KEVIN ALFREDO</td>
+            <td data-label="Apellido Paterno">BURGULLA</td>
+            <td data-label="Apellido Materno">MURIEL</td>
+            <td data-label="Colegio">SAN AGUSTIN</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Cochabamba</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">COCHABAMBA 1</td>
+            <td data-label="Nombre">AGUSTIN LEONARDO</td>
+            <td data-label="Apellido Paterno">ARNEZ</td>
+            <td data-label="Apellido Materno">ALCOCER</td>
+            <td data-label="Colegio">SAN AGUSTIN</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Cochabamba</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">COCHABAMBA 1</td>
+            <td data-label="Nombre">MATIAS</td>
+            <td data-label="Apellido Paterno">JIMENEZ</td>
+            <td data-label="Apellido Materno">ALCOCER</td>
+            <td data-label="Colegio">SAN AGUSTIN</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">La Paz</td>
+            <td data-label="Dependencia">RURAL</td>
+            <td data-label="Distrito">MECAPACA</td>
+            <td data-label="Nombre">LUIS ALEJANDRO</td>
+            <td data-label="Apellido Paterno">ACOSTA</td>
+            <td data-label="Apellido Materno">PAUCARA</td>
+            <td data-label="Colegio">GUILLERMO FRIAS</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">La Paz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">LA PAZ 2</td>
+            <td data-label="Nombre">LUIS IGNACIO</td>
+            <td data-label="Apellido Paterno">MOSCOSO</td>
+            <td data-label="Apellido Materno">BAPTISTA</td>
+            <td data-label="Colegio">HUGO DAVILA A</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">La Paz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">LA PAZ 1</td>
+            <td data-label="Nombre">GABRIEL ALBERTO</td>
+            <td data-label="Apellido Paterno">CRUZ</td>
+            <td data-label="Apellido Materno">NOGALES</td>
+            <td data-label="Colegio">AMERINST</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">La Paz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">EL ALTO 1</td>
+            <td data-label="Nombre">ADRIAN IVAN</td>
+            <td data-label="Apellido Paterno">GUTIERREZ</td>
+            <td data-label="Apellido Materno">HUANCA</td>
+            <td data-label="Colegio">SANTA BARBARA</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">La Paz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">EL ALTO 1</td>
+            <td data-label="Nombre">GABRIEL</td>
+            <td data-label="Apellido Paterno">PIMIENTA</td>
+            <td data-label="Apellido Materno">RODRIGUEZ</td>
+            <td data-label="Colegio">SANTA BARBARA</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Oruro</td>
+            <td data-label="Dependencia">RURAL</td>
+            <td data-label="Distrito">HUANUNI</td>
+            <td data-label="Nombre">LETICIA</td>
+            <td data-label="Apellido Paterno">YUCRA</td>
+            <td data-label="Apellido Materno">CALA</td>
+            <td data-label="Colegio">GUALBERTO VILLARROEL</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Oruro</td>
+            <td data-label="Dependencia">RURAL</td>
+            <td data-label="Distrito">HUANUNI</td>
+            <td data-label="Nombre">ROLANDO PERCY</td>
+            <td data-label="Apellido Paterno">CARVAJAL</td>
+            <td data-label="Apellido Materno">ROQUE</td>
+            <td data-label="Colegio">GUALBERTO VILLARROEL</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Oruro</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">ORURO</td>
+            <td data-label="Nombre">LUCAS</td>
+            <td data-label="Apellido Paterno">MAMANI</td>
+            <td data-label="Apellido Materno">ZARZURI</td>
+            <td data-label="Colegio">ANTONIO JOSE DE SAINZ SECUNDARIO</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Potosi</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">LLALLAGUA</td>
+            <td data-label="Nombre">IAN NORMAN</td>
+            <td data-label="Apellido Paterno">SOLIZ</td>
+            <td data-label="Apellido Materno">SIMONS</td>
+            <td data-label="Colegio">1RO. DE MAYO A</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Potosi</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">POTOSI</td>
+            <td data-label="Nombre">CONRADO FIDEL</td>
+            <td data-label="Apellido Paterno">GOMEZ</td>
+            <td data-label="Apellido Materno">ARANO</td>
+            <td data-label="Colegio">DON BOSCO A</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Potosi</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">POTOSI</td>
+            <td data-label="Nombre">ARYAN ARTURO</td>
+            <td data-label="Apellido Paterno">CHAMBI</td>
+            <td data-label="Apellido Materno">CHOQUE</td>
+            <td data-label="Colegio">PICHINCHA A</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Potosi</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">POTOSI</td>
+            <td data-label="Nombre">GABRIELA FERNANDA</td>
+            <td data-label="Apellido Paterno">ACEBEY</td>
+            <td data-label="Apellido Materno">QUINTEROS</td>
+            <td data-label="Colegio">SAGRADOS CORAZONES DE JESUS Y DE MARIA A</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Potosi</td>
+            <td data-label="Dependencia">RURAL</td>
+            <td data-label="Distrito">VITICHI</td>
+            <td data-label="Nombre">FRANZ ALVARO</td>
+            <td data-label="Apellido Paterno">PACO</td>
+            <td data-label="Apellido Materno">CHURATA</td>
+            <td data-label="Colegio">TOMAS FRIAS</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Santa Cruz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SANTA CRUZ 2</td>
+            <td data-label="Nombre">CESAR MARTIN</td>
+            <td data-label="Apellido Paterno">PEREYRA</td>
+            <td data-label="Apellido Materno">PATICU</td>
+            <td data-label="Colegio">SANTO TOMAS DE AQUINO</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Santa Cruz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SANTA CRUZ 1</td>
+            <td data-label="Nombre">CRISTIAN SANTIAGO</td>
+            <td data-label="Apellido Paterno">SOTO</td>
+            <td data-label="Apellido Materno">CARDONA</td>
+            <td data-label="Colegio">ALEXANDER VON HUMBOLDT</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Santa Cruz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SANTA CRUZ 2</td>
+            <td data-label="Nombre">FRANCISCO SEGUNDO</td>
+            <td data-label="Apellido Paterno">ORTIZ</td>
+            <td data-label="Apellido Materno">ROJAS</td>
+            <td data-label="Colegio">MARCELINO CHAMPAGNAT I</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Santa Cruz</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">SANTA CRUZ 2</td>
+            <td data-label="Nombre">YUKI MATIAS</td>
+            <td data-label="Apellido Paterno">YAMASHIRO</td>
+            <td data-label="Apellido Materno">KUNG</td>
+            <td data-label="Colegio">MARCELINO CHAMPAGNAT I</td>
+            <td data-label="Curso">5 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Santa Cruz</td>
+            <td data-label="Dependencia">RURAL</td>
+            <td data-label="Distrito">WARNES</td>
+            <td data-label="Nombre">MILEY</td>
+            <td data-label="Apellido Paterno">MAMANI</td>
+            <td data-label="Apellido Materno">ROQUE</td>
+            <td data-label="Colegio">JUAN PABLO II U.V.5</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Tarija</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">TARIJA</td>
+            <td data-label="Nombre">ISABEL BEATRIZ</td>
+            <td data-label="Apellido Paterno">RIVERO</td>
+            <td data-label="Apellido Materno">MUR</td>
+            <td data-label="Colegio">HNO. FELIPE PALAZON</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Tarija</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">TARIJA</td>
+            <td data-label="Nombre">JOSE GABRIEL</td>
+            <td data-label="Apellido Paterno">OLARTE</td>
+            <td data-label="Apellido Materno">MEDRANO</td>
+            <td data-label="Colegio">HNO. FELIPE PALAZON</td>
+            <td data-label="Curso">6 Secundaria</td>
+        </tr>
+
+
+        <tr>
+            <td data-label="Departamento">Tarija</td>
+            <td data-label="Dependencia">URBANO</td>
+            <td data-label="Distrito">TARIJA</td>
+            <td data-label="Nombre">LUCAS RUDY</td>
+            <td data-label="Apellido Paterno">QUIROGA</td>
+            <td data-label="Apellido Materno">PANIQUE</td>
+            <td data-label="Colegio">HNO. FELIPE PALAZON</td>
+            <td data-label="Curso">4 Secundaria</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
