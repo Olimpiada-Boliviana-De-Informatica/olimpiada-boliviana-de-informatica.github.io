@@ -123,6 +123,7 @@ a:hover {
 
 .enlace {
     align-items: center;
+    background-color: #247604;
     justify-content: center;
     display: flex;
     margin: 20px;
